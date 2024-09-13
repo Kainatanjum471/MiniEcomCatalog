@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MiniECommerceCatalog.WebApp.props" />
+</Project>

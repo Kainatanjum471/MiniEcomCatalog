@@ -1,0 +1,52 @@
+﻿@page
+@model MiniECommerceCatalog.WebApp.Models.MiniECommerceCatalog.Web.Pages.Products.AddProductModel
+@{
+    ViewData["Title"] = "Add Product";
+}
+
+<h2>Add Product</h2>
+
+<form id="addProductForm">
+    <div class="form-group">
+        <label for="name">Product Name</label>
+        <input type="text" class="form-control" id="name" required />
+    </div>
+    <div class="form-group">
+        <label for="description">Description</label>
+        <textarea class="form-control" id="description" required></textarea>
+    </div>
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input type="number" step="0.01" class="form-control" id="price" required />
+    </div>
+    <div class="form-group">
+        <label for="category">Category</label>
+        <input type="text" class="form-control" id="category" required />
+    </div>
+    <button type="button" id="addProductButton" class="btn btn-primary">Add Product</button>
+</form>
+
+<script>
+    $('#addProductButton').click(function () {
+        var product = {
+            name: $('#name').val(),
+            description: $('#description').val(),
+            price: $('#price').val(),
+            category: $('#category').val()
+        };
+
+        $.ajax({
+            url: '/api/Product',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(product),
+            success: function () {
+                alert('Product added successfully!');
+                window.location.href = '/Products';
+            },
+            error: function () {
+                alert('Error adding product');
+            }
+        });
+    });
+</script>

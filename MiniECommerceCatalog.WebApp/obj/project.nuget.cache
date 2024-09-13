@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dhe1QMC+Lg4tM0XcevHRpzIEilmO837J6VbQYTKLWcWXbcoW12ZlYbnJMTKOnz1obXPexxswc88dtjQe7rOZbQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\MiniECommerceCatalog\\MiniECommerceCatalog\\MiniECommerceCatalog.WebApp\\MiniECommerceCatalog.WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KainatAnjum\\.nuget\\packages\\jquery\\3.7.1\\jquery.3.7.1.nupkg.sha512",
+    "C:\\Users\\KainatAnjum\\.nuget\\packages\\microsoft.jquery.unobtrusive.ajax\\3.2.6\\microsoft.jquery.unobtrusive.ajax.3.2.6.nupkg.sha512"
+  ],
+  "logs": []
+}

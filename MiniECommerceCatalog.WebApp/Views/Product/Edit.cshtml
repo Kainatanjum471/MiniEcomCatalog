@@ -1,0 +1,12 @@
+﻿@model MiniECommerceCatalog.Data.Models.Product
+
+<h2 class="mb-4">Delete Product</h2>
+
+<p>Are you sure you want to delete the product: <strong>@Model.Name</strong>?</p>
+
+<a href="/Product/DeleteConfirmed/@Model.ID" class="btn btn-danger">
+    <i class="fas fa-trash"></i> Confirm Delete
+</a>
+<a href="/Product/Index" class="btn btn-secondary">
+    <i class="fas fa-times"></i> Cancel
+</a>

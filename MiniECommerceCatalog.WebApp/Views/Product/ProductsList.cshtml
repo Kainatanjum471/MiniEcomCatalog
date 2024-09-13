@@ -1,0 +1,30 @@
+﻿@model ProductListModel
+<script src="~/mecc/products.js"></script>
+<h2>Products</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Price</td>
+                <td>@product.Category</td>
+                <td>
+                    <a href="/EditProduct/@product.ID">Edit</a>
+                    <a href="/DeleteProduct/@product.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

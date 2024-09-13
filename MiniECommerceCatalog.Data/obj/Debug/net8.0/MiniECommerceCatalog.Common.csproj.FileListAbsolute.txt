@@ -1,0 +1,14 @@
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\bin\Debug\net8.0\MiniECommerceCatalog.Common.deps.json
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\bin\Debug\net8.0\MiniECommerceCatalog.Common.runtimeconfig.json
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\bin\Debug\net8.0\MiniECommerceCatalog.Common.dll
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\bin\Debug\net8.0\MiniECommerceCatalog.Common.pdb
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\obj\Debug\net8.0\MiniECommerceCatalog.Common.csproj.AssemblyReference.cache
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\obj\Debug\net8.0\MiniECommerceCatalog.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\obj\Debug\net8.0\MiniECommerceCatalog.Common.AssemblyInfoInputs.cache
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\obj\Debug\net8.0\MiniECommerceCatalog.Common.AssemblyInfo.cs
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\obj\Debug\net8.0\MiniECommerceCatalog.Common.csproj.CoreCompileInputs.cache
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\obj\Debug\net8.0\MiniECommerceCatalog.Common.dll
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\obj\Debug\net8.0\refint\MiniECommerceCatalog.Common.dll
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\obj\Debug\net8.0\MiniECommerceCatalog.Common.pdb
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\obj\Debug\net8.0\MiniECommerceCatalog.Common.genruntimeconfig.cache
+C:\Users\extteoana\source\repos\MiniECommerceCatalog\MiniECommerceCatalog.Data\obj\Debug\net8.0\ref\MiniECommerceCatalog.Common.dll

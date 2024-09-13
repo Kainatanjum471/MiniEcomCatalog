@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "C0auMBdQwKoQAaL97B5t7UH+W2YcpnIHr4FlLpju8RU=",
+  "Source": "MiniECommerceCatalog.Api",
+  "BasePath": "_content/MiniECommerceCatalog.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

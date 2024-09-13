@@ -1,0 +1,72 @@
+﻿@model MiniECommerceCatalog.Data.Models.Product
+
+<h2 class="mb-4">Add New Product</h2>
+
+<form asp-action="Add" method="post" class="needs-validation" novalidate>
+    <div class="form-group">
+        <label for="Name">Product Name</label>
+        <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter product name" required />
+        <div class="invalid-feedback">Please provide a product name.</div>
+    </div>
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <textarea class="form-control" id="Description" name="Description" rows="3" placeholder="Enter product description" required></textarea>
+        <div class="invalid-feedback">Please provide a description.</div>
+    </div>
+    <div class="form-group">
+        <label for="Price">Price</label>
+        <input type="number" class="form-control" id="Price" name="Price" step="0.01" placeholder="Enter product price" required />
+        <div class="invalid-feedback">Please provide a price.</div>
+    </div>
+    <div class="form-group">
+        <label for="Category">Category</label>
+        <input type="text" class="form-control" id="Category" name="Category" placeholder="Enter product category" required />
+        <div class="invalid-feedback">Please provide a category.</div>
+    </div>
+    <button type="submit" class="btn btn-primary">
+        <i class="fas fa-save"></i> Save Product
+    </button>
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title" id="deleteModalLabel">Confirm Delete</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to delete this product?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <a id="confirmDeleteBtn" href="#" class="btn btn-danger">Confirm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script>
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+<script>
+    function confirmDelete(productId) {
+        $('#confirmDeleteBtn').attr('href', '/Product/Delete/' + productId);
+        $('#deleteModal').modal('show');
+    }
+</script>
